@@ -35,8 +35,62 @@
     Theme URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
     Author: BootstrapMade
     Author URL: https://bootstrapmade.com
-	======================================================= -->
+    ======================================================= -->
+    <style>
+    body {
+      font-family: 'Lato', sans-serif;
+    }
 
+    .overlay {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0, 0.9);
+      overflow-x: hidden;
+      transition: 0.5s;
+    }
+
+    .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .overlay a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .overlay a:hover, .overlay a:focus {
+      color: #f1f1f1;
+    }
+
+    .overlay .closebtn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+    }
+
+    @media screen and (max-height: 450px) {
+      .overlay a {font-size: 20px}
+      .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+      }
+    }
+    </style>
 </head>
 
 <body>
@@ -59,10 +113,10 @@
         <!--main-nav-start-->
         <div class="container">
             <ul class="main-nav">
-                <li><a href="#header">Home</a></li>
+                <li><a href="#company" onclick="openNav()">Pt. Subaga Mitra Solusi &nbsp<i class="fa fa-angle-right"></i></a></li>
+                <li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt=""></a></li>
                 <li><a href="#service">Services</a></li>
                 <li><a href="#Portfolio">Portfolio</a></li>
-                <li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt=""></a></li>
                 <li><a href="#client">Clients</a></li>
                 <li><a href="#team">Team</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -72,8 +126,17 @@
     </nav>
     <!--main-nav-end-->
 
+    <div id="myNav" class="overlay" style="z-index:9999999">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
 
-
+    <!-- Use any element to open/show the overlay navigation menu -->
     <section class="main-section" id="service">
         <!--main-section-start-->
         <div class="container">
@@ -127,8 +190,6 @@
     </section>
     <!--main-section-end-->
 
-
-
     <section class="main-section alabaster">
         <!--main-section alabaster-start-->
         <div class="container">
@@ -176,8 +237,6 @@
         </div>
     </section>
     <!--main-section alabaster-end-->
-
-
 
     <section class="main-section paddind" id="Portfolio">
         <!--main-section-start-->
@@ -411,7 +470,16 @@
         </div>
     </footer>
 
+    <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
 
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+    
     <script type="text/javascript">
         $(document).ready(function(e) {
 
