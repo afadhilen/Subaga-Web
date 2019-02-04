@@ -63,9 +63,9 @@
     }
 
     .overlay a {
-      padding: 8px;
+      padding: 15px;
       text-decoration: none;
-      font-size: 36px;
+      font-size: 30px;
       color: #818181;
       display: block;
       transition: 0.3s;
@@ -98,11 +98,12 @@
         <!--header-start-->
         <div class="container">
             <figure class="logo animated fadeInDown delay-07s">
-                <a href="#"><img src="img/logo.png" alt=""></a>
+                <a href="#"><img src="img/logo/logo-subaga.png" alt=""></a>
             </figure>
-            <h1 class="animated fadeInDown delay-07s">Welcome To Knight Studios</h1>
+            <h1 class="animated fadeInDown delay-07s">Subaga Group</h1>
             <ul class="we-create animated fadeInUp delay-1s">
-                <li>We are a digital agency that loves crafting beautiful websites.</li>
+                <li>Membangun kepercayaan serta inovasi teknologi dengan prinsip profesional, solusional, pendampingan, kepercayaan dan
+                pelayanan terbaik</li>
             </ul>
             <a class="link animated fadeInUp delay-1s servicelink" href="#service">Get Started</a>
         </div>
@@ -111,14 +112,14 @@
 
     <nav class="main-nav-outer" id="test">
         <!--main-nav-start-->
-        <div class="container">
+        <div class="container" style="width: 100%">
             <ul class="main-nav">
-                <li><a href="#company" onclick="openNav()">Pt. Subaga Mitra Solusi &nbsp<i class="fa fa-angle-right"></i></a></li>
-                <li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt=""></a></li>
-                <li><a href="#service">Services</a></li>
+                <li><a href="#company" onclick="openNav()">Pt. Subaga Mitra Solusi &nbsp; <i class="fa fa-angle-right"></i></a></li>
+                <li class="small-logo"><a class="btn"><img src="img/small-logo.png" alt=""></a></li>
+                <li><a href="#service">Profil</a></li>
+                <li><a href="#anak">Anak Perusahaan</a></li>
+                <li><a href="#team">Layanan</a></li>
                 <li><a href="#Portfolio">Portfolio</a></li>
-                <li><a href="#client">Clients</a></li>
-                <li><a href="#team">Team</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <a class="res-nav_click" href="#"><i class="fa fa-bars"></i></a>
@@ -129,10 +130,11 @@
     <div id="myNav" class="overlay" style="z-index:9999999">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content">
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
+        <a href="#">Subaga Inti Milenia</a>
+        <a href="#"><i>Subaga Mitra Solusi</i></a>
+        <a href="#"><u>Pendaerahan Pajak</u></a>
+        <a href="#">Adora Solusi</a>
+        <a href="#">Hexadata Primakom</a>
       </div>
     </div>
 
@@ -140,38 +142,56 @@
     <section class="main-section" id="service">
         <!--main-section-start-->
         <div class="container">
-            <h2>Services</h2>
-            <h6>We offer exceptional service with complimentary hugs.</h6>
+            <h2>Profil Perusahaan</h2>            
+            <br>
+            <br>
             <div class="row">
                 <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
                     <div class="service-list">
                         <div class="service-list-col1">
-                            <i class="fa fa-paw"></i>
+                            <i class="fa fa-users"></i>
                         </div>
                         <div class="service-list-col2">
-                            <h3>branding &amp; identity</h3>
-                            <p>Proin iaculis purus digni consequat sem digni ssim. Donec entum digni ssim.</p>
+                            <h3>Latar Belakang</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         </div>
                     </div>
                     <div class="service-list">
                         <div class="service-list-col1">
-                            <i class="fa fa-gear"></i>
+                            <i class="fa fa-lightbulb-o"></i>
                         </div>
                         <div class="service-list-col2">
-                            <h3>web development</h3>
-                            <p>Proin iaculis purus consequat sem digni ssim. Digni ssim porttitora .</p>
+                            <h3>Visi</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. </p>
                         </div>
                     </div>
                     <div class="service-list">
+                        <div class="service-list-col1">
+                            <i class="fa fa-check-square-o"></i>
+                        </div>
+                        <div class="service-list-col2">
+                            <h3>Misi</h3>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor</li>
+                                <li>Lorem ipsum</li>
+                        </div>
+                    </div>
+                 <!--    <div class="service-list">
                         <div class="service-list-col1">
                             <i class="fa fa-apple"></i>
                         </div>
                         <div class="service-list-col2">
-                            <h3>mobile design</h3>
-                            <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
+                            <h3>Est</h3>
+                            <p>2010</p>
                         </div>
-                    </div>
-                    <div class="service-list">
+                    </div> -->
+                    <!-- <div class="service-list">
                         <div class="service-list-col1">
                             <i class="fa fa-medkit"></i>
                         </div>
@@ -179,7 +199,7 @@
                             <h3>24/7 Support</h3>
                             <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
                     <img src="img/macbook-pro.png" alt="">
@@ -190,7 +210,7 @@
     </section>
     <!--main-section-end-->
 
-    <section class="main-section alabaster">
+    <section class="main-section alabaster" id="anak">
         <!--main-section alabaster-start-->
         <div class="container">
             <div class="row">
@@ -198,35 +218,60 @@
                     <img src="img/iphone.png" alt="">
                 </figure>
                 <div class="col-lg-7 col-sm-8 featured-work">
-                    <h2>featured work</h2>
-                    <P class="padding-b">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere
-                        odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</P>
+                    <h2>Anak Perusahaan</h2>
+                    <!-- <P class="padding-b">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P> -->
+                    <br>
                     <div class="featured-box">
                         <div class="featured-box-col1 wow fadeInRight delay-02s">
-                            <i class="fa fa-magic"></i>
+                            <i class="fa fa-circle-o"></i>
                         </div>
                         <div class="featured-box-col2 wow fadeInRight delay-02s">
-                            <h3>magic of theme development</h3>
+                            <h3>Subaga Inti Milenia</h3>
                             <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
                                 posuere odio in tincidunt. </p>
                         </div>
                     </div>
                     <div class="featured-box">
                         <div class="featured-box-col1 wow fadeInRight delay-04s">
-                            <i class="fa fa-gift"></i>
+                            <i class="fa fa-circle-o"></i>
                         </div>
                         <div class="featured-box-col2 wow fadeInRight delay-04s">
-                            <h3>neatly packaged</h3>
+                            <h3>Subaga Mitra Solusi</h3>
                             <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
                                 posuere odio in tincidunt. </p>
                         </div>
                     </div>
                     <div class="featured-box">
                         <div class="featured-box-col1 wow fadeInRight delay-06s">
-                            <i class="fa fa-dashboard"></i>
+                            <i class="fa fa-circle-o"></i>
                         </div>
                         <div class="featured-box-col2 wow fadeInRight delay-06s">
-                            <h3>SEO optimized</h3>
+                            <h3>Pendaerahan pajak</h3>
+                            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
+                                posuere odio in tincidunt. </p>
+                        </div>
+                    </div>
+                    <div class="featured-box">
+                        <div class="featured-box-col1 wow fadeInRight delay-06s">
+                            <i class="fa fa-circle-o"></i>
+                        </div>
+                        <div class="featured-box-col2 wow fadeInRight delay-06s">
+                            <h3>Adora Solusi </h3>
+                            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
+                                posuere odio in tincidunt. </p>
+                        </div>
+                    </div>
+                    <div class="featured-box">
+                        <div class="featured-box-col1 wow fadeInRight delay-06s">
+                            <i class="fa fa-circle-o"></i>
+                        </div>
+                        <div class="featured-box-col2 wow fadeInRight delay-06s">
+                            <h3>Hexadata Primakom</h3>
                             <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
                                 posuere odio in tincidunt. </p>
                         </div>
@@ -237,72 +282,18 @@
         </div>
     </section>
     <!--main-section alabaster-end-->
-
-    <section class="main-section paddind" id="Portfolio">
-        <!--main-section-start-->
-        <div class="container">
-            <h2>Portfolio</h2>
-            <h6>Fresh portfolio of designs that will keep you wanting more.</h6>
-            <div class="portfolioFilter">
-                <ul class="Portfolio-nav wow fadeIn delay-02s">
-                    <li><a href="#" data-filter="*" class="current">All</a></li>
-                    <li><a href="#" data-filter=".branding">Branding</a></li>
-                    <li><a href="#" data-filter=".webdesign">Web design</a></li>
-                    <li><a href="#" data-filter=".printdesign">Print design</a></li>
-                    <li><a href="#" data-filter=".photography">Photography</a></li>
-                </ul>
-            </div>
-
-        </div>
-        <div class="portfolioContainer wow fadeInUp delay-04s">
-            <div class=" Portfolio-box printdesign">
-                <a href="img/Portfolio-pic1.jpg"><img src="img/Portfolio-pic1.jpg" alt=""></a>
-                <h3>Foto Album</h3>
-                <p>Print Design</p>
-            </div>
-            <div class="Portfolio-box webdesign">
-                <a href="img/Portfolio-pic2.jpg"><img src="img/Portfolio-pic2.jpg" alt=""></a>
-                <h3>Luca Theme</h3>
-                <p>Web Design</p>
-            </div>
-            <div class=" Portfolio-box branding">
-                <a href="img/Portfolio-pic3.jpg"><img src="img/Portfolio-pic3.jpg" alt=""></a>
-                <h3>Uni Sans</h3>
-                <p>Branding</p>
-            </div>
-            <div class=" Portfolio-box photography">
-                <a href="img/Portfolio-pic4.jpg"><img src="img/Portfolio-pic4.jpg" alt=""></a>
-                <h3>Vinyl Record</h3>
-                <p>Photography</p>
-            </div>
-            <div class=" Portfolio-box branding">
-                <a href="img/Portfolio-pic5.jpg"><img src="img/Portfolio-pic5.jpg" alt=""></a>
-                <h3>Hipster</h3>
-                <p>Branding</p>
-            </div>
-            <div class=" Portfolio-box photography">
-                <a href="img/Portfolio-pic6.jpg"><img src="img/Portfolio-pic6.jpg" alt=""></a>
-                <h3>Windmills</h3>
-                <p>Photography</p>
-            </div>
-        </div>
-    </section>
-    <!--main-section-end-->
-
-
-    <section class="main-section client-part" id="client">
+    <section class="main-section client-part" id="client" style="display: none;">
         <!--main-section client-part-start-->
         <div class="container">
             <b class="quote-right wow fadeInDown delay-03"><i class="fa fa-quote-right"></i></b>
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="client-part-haead wow fadeInDown delay-05">It was a pleasure to work with the guys at Knight Studio. They made sure we were well fed and drunk all
-                        the time!</p>
+                    <p class="client-part-haead wow fadeInDown delay-05">Layanan</p>
                 </div>
             </div>
             <ul class="client wow fadeIn delay-05s">
                 <li><a href="#">
-            	<img src="img/client-pic1.jpg" alt="">
+                <img src="img/client-pic1.jpg" alt="">
                 <h3>James Bond</h3>
                 <span>License To Drink Inc.</span>
             </a></li>
@@ -310,7 +301,7 @@
         </div>
     </section>
     <!--main-section client-part-end-->
-    <div class="c-logo-part">
+     <div class="c-logo-part">
         <!--c-logo-part-start-->
         <div class="container">
             <ul>
@@ -323,10 +314,11 @@
         </div>
     </div>
     <!--c-logo-part-end-->
-    <section class="main-section team" id="team">
+
+    <section class="main-section team" id="team" style="background-color: #fafafa">
         <!--main-section team-start-->
         <div class="container">
-            <h2>team</h2>
+            <h2>Layanan</h2>
             <h6>Take a closer look into our amazing team. We won’t bite.</h6>
             <div class="team-leader-block clearfix">
                 <div class="team-leader-box">
@@ -381,6 +373,61 @@
         </div>
     </section>
     <!--main-section team-end-->
+
+    <section class="main-section paddind" id="Portfolio">
+        <!--main-section-start-->
+        <div class="container">
+            <h2>Portfolio</h2>
+            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. </h6>
+            <div class="portfolioFilter">
+                <ul class="Portfolio-nav wow fadeIn delay-02s">
+                    <li><a href="#" data-filter="*" class="current">All</a></li>
+                    <li><a href="#" data-filter=".branding">SUBAGA INTI MILENIA</a></li>
+                    <li><a href="#" data-filter=".webdesign">SUBAGA MITRA SOLUSI</a></li>
+                    <li><a href="#" data-filter=".printdesign">PENDAERAHAN PAJAK</a></li>
+                    <li><a href="#" data-filter=".photography">Adora Solusi</a></li>
+                    <li><a href="#" data-filter=".webdesign">HEXADATA PRIMAKOM</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="portfolioContainer wow fadeInUp delay-04s">
+            <div class=" Portfolio-box printdesign">
+                <a href="img/Portfolio-pic1.jpg"><img src="img/Portfolio-pic1.jpg" alt=""></a>
+                <h3>Foto Album</h3>
+                <p>Print Design</p>
+            </div>
+            <div class="Portfolio-box webdesign">
+                <a href="img/Portfolio-pic2.jpg"><img src="img/Portfolio-pic2.jpg" alt=""></a>
+                <h3>Luca Theme</h3>
+                <p>Web Design</p>
+            </div>
+            <div class=" Portfolio-box branding">
+                <a href="img/Portfolio-pic3.jpg"><img src="img/Portfolio-pic3.jpg" alt=""></a>
+                <h3>Uni Sans</h3>
+                <p>Branding</p>
+            </div>
+            <div class=" Portfolio-box photography">
+                <a href="img/Portfolio-pic4.jpg"><img src="img/Portfolio-pic4.jpg" alt=""></a>
+                <h3>Vinyl Record</h3>
+                <p>Photography</p>
+            </div>
+            <div class=" Portfolio-box branding">
+                <a href="img/Portfolio-pic5.jpg"><img src="img/Portfolio-pic5.jpg" alt=""></a>
+                <h3>Hipster</h3>
+                <p>Branding</p>
+            </div>
+            <div class=" Portfolio-box photography">
+                <a href="img/Portfolio-pic6.jpg"><img src="img/Portfolio-pic6.jpg" alt=""></a>
+                <h3>Windmills</h3>
+                <p>Photography</p>
+            </div>
+        </div>
+    </section>
+    <!--main-section-end-->
+
+    
 
 
 
