@@ -95,7 +95,7 @@
 
 <body>
     <!--header-start-->
-    <header class="header" id="header">
+   <!--  <header class="header" id="header">
         <div class="container">
             <figure class="logo animated fadeInDown delay-07s">
                 <a href="#"><img src="img/logo/logo-subaga.png" alt=""></a>
@@ -107,15 +107,15 @@
             </ul>
             <a class="link animated fadeInUp delay-1s servicelink" href="#service">Get Started</a>
         </div>
-    </header>
+    </header> -->
     <!--header-end-->
 
     <nav class="main-nav-outer" id="test">
         <!--main-nav-start-->
         <div class="container" style="width: 100%">
             <ul class="main-nav">
-                <li><a href="#company" onclick="openNav()">Pt. Subaga Mitra Solusi &nbsp; <i class="fa fa-angle-right"></i></a></li>
-                <li class="small-logo"><a class="btn"><img src="img/small-logo.png" alt=""></a></li>
+                <li><a href="#company" onclick="openNav()">Pt. Subaga Inti Milenia &nbsp; <i class="fa fa-angle-right"></i></a></li>
+                <li class="small-logo"><a class="btn"><img src="img/logo/subaga-milenia/logo-subaga-milenia.png" width="150" height="80" alt=""></a></li>
                 <li><a href="#service">Profil</a></li>
                 <li><a href="#anak">Anak Perusahaan</a></li>
                 <li><a href="#team">Layanan</a></li>
@@ -152,13 +152,8 @@
                             <i class="fa fa-users"></i>
                         </div>
                         <div class="service-list-col2">
-                            <h3>Latar Belakang</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <h3>Tagline</h3>
+                            <p><b><i>“Kami memiliki kompetensi dalam Big Data, IoT dan Virtual Reality”</i></b></p>
                         </div>
                     </div>
                     <div class="service-list">
@@ -167,8 +162,7 @@
                         </div>
                         <div class="service-list-col2">
                             <h3>Visi</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <p>Menjadi perusahaan yang mampu mewujudkan masa depan era digital</p>
                         </div>
                     </div>
                     <div class="service-list">
@@ -177,9 +171,9 @@
                         </div>
                         <div class="service-list-col2">
                             <h3>Misi</h3>
-                                <li>Lorem ipsum dolor sit amet</li>
-                                <li>Lorem ipsum dolor</li>
-                                <li>Lorem ipsum</li>
+                                <li>Menjadikan perusahaan yang mewujudkan kompetensi sumber daya manusia melalui  hasil karya digital</li>
+                                <!-- <li>Lorem ipsum dolor</li>
+                                <li>Lorem ipsum</li> -->
                         </div>
                     </div>
                  <!--    <div class="service-list">
@@ -202,7 +196,7 @@
                     </div> -->
                 </div>
                 <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
-                    <img src="img/macbook-pro.png" alt="">
+                    <img src="img/logo/subaga-milenia/logo-subaga-milenia.png" alt="">
                 </figure>
 
             </div>
@@ -210,8 +204,8 @@
     </section>
     <!--main-section-end-->
 
-    <section class="main-section alabaster" id="anak">
-        <!--main-section alabaster-start-->
+ <!--main-section alabaster-start-->
+   <!--  <section class="main-section alabaster" id="anak">
         <div class="container">
             <div class="row">
                 <figure class="col-lg-5 col-sm-4 wow fadeInLeft">
@@ -219,12 +213,6 @@
                 </figure>
                 <div class="col-lg-7 col-sm-8 featured-work">
                     <h2>Anak Perusahaan</h2>
-                    <!-- <P class="padding-b">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P> -->
                     <br>
                     <div class="featured-box">
                         <div class="featured-box-col1 wow fadeInRight delay-02s">
@@ -280,10 +268,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--main-section alabaster-end-->
-    <section class="main-section client-part" id="client" style="display: none;">
-        <!--main-section client-part-start-->
+
+    <!--main-section client-part-start-->
+    <!-- <section class="main-section client-part" id="client" style="display: none;">
         <div class="container">
             <b class="quote-right wow fadeInDown delay-03"><i class="fa fa-quote-right"></i></b>
             <div class="row">
@@ -299,24 +288,25 @@
             </a></li>
             </ul>
         </div>
-    </section>
+    </section> -->
     <!--main-section client-part-end-->
      <div class="c-logo-part">
         <!--c-logo-part-start-->
-        <div class="container">
+        <div class="container" style="width: 100%">
             <ul>
-                <li><a href="#"><img src="img/c-liogo1.png" alt=""></a></li>
-                <li><a href="#"><img src="img/c-liogo2.png" alt=""></a></li>
-                <li><a href="#"><img src="img/c-liogo3.png" alt=""></a></li>
-                <li><a href="#"><img src="img/c-liogo4.png" alt=""></a></li>
-                <li><a href="#"><img src="img/c-liogo5.png" alt=""></a></li>
+                <li><a href="#"><img src="img/logo/subaga-milenia/Partner1.jpg" width="122" height="53" alt=""></a></li>
+                <li><a href="#"><img src="img/logo/subaga-milenia/Partner2.png" width="122" height="53" alt=""></a></li>
+                <li><a href="#"><img src="img/logo/subaga-milenia/Partner3.jpg" width="122" height="53" alt=""></a></li>
+                <li><a href="#"><img src="img/logo/subaga-milenia/Partner4.jpg" width="122" height="53" alt=""></a></li>
+                <li><a href="#"><img src="img/logo/subaga-milenia/Partner5.jpg" width="122" height="53" alt=""></a></li>
+                <li><a href="#"><img src="img/logo/subaga-milenia/Partner6.jpg" width="122" height="53" alt=""></a></li>
             </ul>
         </div>
     </div>
     <!--c-logo-part-end-->
 
-    <section class="main-section team" id="team" style="background-color: #fafafa">
-        <!--main-section team-start-->
+    <!--main-section team-start-->
+    <!-- <section class="main-section team" id="team" style="background-color: #fafafa">
         <div class="container">
             <h2>Layanan</h2>
             <h6>Take a closer look into our amazing team. We won’t bite.</h6>
@@ -371,7 +361,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--main-section team-end-->
 
     <section class="main-section paddind" id="Portfolio">
@@ -382,47 +372,52 @@
             tempor incididunt ut labore et dolore magna aliqua. </h6>
             <div class="portfolioFilter">
                 <ul class="Portfolio-nav wow fadeIn delay-02s">
-                    <li><a href="#" data-filter="*" class="current">All</a></li>
-                    <li><a href="#" data-filter=".branding">SUBAGA INTI MILENIA</a></li>
-                    <li><a href="#" data-filter=".webdesign">SUBAGA MITRA SOLUSI</a></li>
-                    <li><a href="#" data-filter=".printdesign">PENDAERAHAN PAJAK</a></li>
+                    <!-- <li><a href="#" data-filter="*" class="current">All</a></li> -->
+                    <li><a href="#" data-filter=".branding">IoT of a SMART PARKING</a></li>
+                    <li><a href="#" data-filter=".webdesign">IoT of a SMALL MEDIUM BUSINESS</a></li>
+                    <li><a href="#" data-filter=".printdesign">IoT of a GOVERNMENT TAX</a></li>
                     <li><a href="#" data-filter=".photography">Adora Solusi</a></li>
-                    <li><a href="#" data-filter=".webdesign">HEXADATA PRIMAKOM</a></li>
+                    <li><a href="#" data-filter=".webdesign">IoT in CONTROLLING A POWER DISTRIBUTION</a></li>
                 </ul>
             </div>
 
         </div>
         <div class="portfolioContainer wow fadeInUp delay-04s">
+
+        <div class=" Portfolio-box branding">
+                <a href="img/logo/subaga-milenia/SmartPark2.PNG"><img src="img/logo/subaga-milenia/SmartPark2.PNG" alt=""></a>
+                <h3>IoT of a SMART PARKING</h3>
+                <p>Smart parking technologies are enabling a brand new
+                    parking experience. Sensor networks that detect vehicle occupancy, embedded pcs, IoT gateways and cloud are providing the basic intelligence behind smart parking systems.
+                </p>
+            </div>
             <div class=" Portfolio-box printdesign">
-                <a href="img/Portfolio-pic1.jpg"><img src="img/Portfolio-pic1.jpg" alt=""></a>
-                <h3>Foto Album</h3>
-                <p>Print Design</p>
+                <a href="img/logo/subaga-milenia/GovernmentTax2.png"><img src="img/logo/subaga-milenia/GovernmentTax2.png" alt=""></a>
+                <h3> IoT of a GOVERNMENT TAX</h3>
+                <p>Lorem Ipsum dolor sit amet</p>
             </div>
             <div class="Portfolio-box webdesign">
-                <a href="img/Portfolio-pic2.jpg"><img src="img/Portfolio-pic2.jpg" alt=""></a>
-                <h3>Luca Theme</h3>
-                <p>Web Design</p>
+                <a href="img/logo/subaga-milenia/SmallMedium2.png"><img src="img/logo/subaga-milenia/SmallMedium2.png" alt=""></a>
+                <h3>IoT of a SMALL MEDIUM BUSINESS</h3>
+                <p>Lorem Ipsum dolor sit amet</p>
             </div>
             <div class=" Portfolio-box branding">
-                <a href="img/Portfolio-pic3.jpg"><img src="img/Portfolio-pic3.jpg" alt=""></a>
-                <h3>Uni Sans</h3>
-                <p>Branding</p>
+                <a href="img/logo/subaga-milenia/Tappingbox.png"><img src="img/logo/subaga-milenia/Tappingbox.png" alt=""></a>
+                <h3>IoT in CONTROLLING A POWER DISTRIBUTION</h3>
+                <p>Lorem Ipsum dolor sit amet</p>
             </div>
             <div class=" Portfolio-box photography">
-                <a href="img/Portfolio-pic4.jpg"><img src="img/Portfolio-pic4.jpg" alt=""></a>
-                <h3>Vinyl Record</h3>
-                <p>Photography</p>
+                <a href="img/logo/subaga-milenia/Tappingbox2.png"><img src="img/logo/subaga-milenia/Tappingbox2.png" alt=""></a>
+                <h3>IoT in CONTROLLING A POWER DISTRIBUTION 2</h3>
+                <p>Lorem Ipsum dolor sit amet</p>
             </div>
-            <div class=" Portfolio-box branding">
-                <a href="img/Portfolio-pic5.jpg"><img src="img/Portfolio-pic5.jpg" alt=""></a>
-                <h3>Hipster</h3>
-                <p>Branding</p>
-            </div>
-            <div class=" Portfolio-box photography">
+            
+            <!-- <div class=" Portfolio-box photography">
                 <a href="img/Portfolio-pic6.jpg"><img src="img/Portfolio-pic6.jpg" alt=""></a>
                 <h3>Windmills</h3>
                 <p>Photography</p>
-            </div>
+            </div> -->
+
         </div>
     </section>
     <!--main-section-end-->
