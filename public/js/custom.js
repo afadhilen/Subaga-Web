@@ -91,6 +91,14 @@ $(function () {
         var id = $(this).data('link');
 
         if(id != current_link){
+            if (id != 'subaga-group') {
+                $('.header').hide('slow');
+                $(window).scrollTop(0);
+            } else {
+                $('.header').show('slow');
+                $(window).scrollTop(0);
+            }
+
             $.ajax({
                 url:"/api/nav-bar",
                 data: {
