@@ -130,7 +130,8 @@
     <div id="myNav" class="overlay" style="z-index:9999999">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content">
-        <a href="{{url('/')}}"><i>Subaga Mitra Solusi</i></a>
+        <a href="{{url('/')}}"><i>Subaga Group</i></a>
+        <a href="#"><i>Subaga Mitra Solusi</i></a>
         <a href="{{url('list')}}">Subaga Inti Milenia</a>
         <a href="#"><u>Pendaerahan Pajak</u></a>
         <a href="#">Adora Solusi</a>

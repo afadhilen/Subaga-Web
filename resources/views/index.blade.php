@@ -114,7 +114,7 @@
         <!--main-nav-start-->
         <div class="container" style="width: 100%">
             <ul class="main-nav">
-                <li><a href="#company" onclick="openNav()">Pt. Subaga Mitra Solusi &nbsp; <i class="fa fa-angle-right"></i></a></li>
+                <li><a href="#company" onclick="openNav()">Subaga Group &nbsp; <i class="fa fa-angle-right"></i></a></li>
                 <li class="small-logo"><a class="btn"><img src="img/small-logo.png" alt=""></a></li>
                 <li><a href="#service">Profil</a></li>
                 <li><a href="#anak">Anak Perusahaan</a></li>
@@ -130,7 +130,8 @@
     <div id="myNav" class="overlay" style="z-index:9999999">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content">
-        <a href="{{url('/')}}"><i>Subaga Mitra Solusi</i></a>
+        <a href="{{url('/')}}"><i>Subaga Group</i></a>
+        <a href="#"><i>Subaga Mitra Solusi</i></a>
         <a href="{{url('list')}}">Subaga Inti Milenia</a>
         <a href="#"><u>Pendaerahan Pajak</u></a>
         <a href="#">Adora Solusi</a>
@@ -382,7 +383,7 @@
             tempor incididunt ut labore et dolore magna aliqua. </h6>
             <div class="portfolioFilter">
                 <ul class="Portfolio-nav wow fadeIn delay-02s">
-                    <li><a href="#" data-filter="*" class="current">All</a></li>
+                    <li><a href="#" data-filter="*" class="current">Subaga Group</a></li>
                     <li><a href="#" data-filter=".branding">SUBAGA INTI MILENIA</a></li>
                     <li><a href="#" data-filter=".webdesign">SUBAGA MITRA SOLUSI</a></li>
                     <li><a href="#" data-filter=".printdesign">PENDAERAHAN PAJAK</a></li>
