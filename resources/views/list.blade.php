@@ -117,8 +117,8 @@
                 <li><a href="#company" onclick="openNav()">Pt. Subaga Inti Milenia &nbsp; <i class="fa fa-angle-right"></i></a></li>
                 <li class="small-logo"><a class="btn"><img src="img/logo/subaga-milenia/logo-subaga-milenia.png" width="150" height="80" alt=""></a></li>
                 <li><a href="#service">Profil</a></li>
-                <li><a href="#anak">Anak Perusahaan</a></li>
-                <li><a href="#team">Layanan</a></li>
+                {{-- <li><a href="#anak">Anak Perusahaan</a></li> --}}
+                {{-- <li><a href="#team">Layanan</a></li> --}}
                 <li><a href="#Portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -373,41 +373,41 @@
             tempor incididunt ut labore et dolore magna aliqua. </h6>
             <div class="portfolioFilter">
                 <ul class="Portfolio-nav wow fadeIn delay-02s">
-                    <!-- <li><a href="#" data-filter="*" class="current">All</a></li> -->
-                    <li><a href="#" data-filter=".branding">IoT of a SMART PARKING</a></li>
-                    <li><a href="#" data-filter=".webdesign">IoT of a SMALL MEDIUM BUSINESS</a></li>
-                    <li><a href="#" data-filter=".printdesign">IoT of a GOVERNMENT TAX</a></li>
-                    <li><a href="#" data-filter=".photography">Adora Solusi</a></li>
-                    <li><a href="#" data-filter=".webdesign">IoT in CONTROLLING A POWER DISTRIBUTION</a></li>
+                    <li><a href="#" data-filter="*" class="current">All</a></li>
+                    <li><a href="#" data-filter=".smart-parking">IoT of a SMART PARKING</a></li>
+                    <li><a href="#" data-filter=".medium">IoT of a SMALL MEDIUM BUSINESS</a></li>
+                    <li><a href="#" data-filter=".tax">IoT of a GOVERNMENT TAX</a></li>
+                    <li><a href="#" data-filter=".adora">Adora Solusi</a></li>
+                    <li><a href="#" data-filter=".power">IoT in CONTROLLING A POWER DISTRIBUTION</a></li>
                 </ul>
             </div>
 
         </div>
         <div class="portfolioContainer wow fadeInUp delay-04s">
 
-        <div class=" Portfolio-box branding">
+        <div class=" Portfolio-box smart-parking">
                 <a href="img/logo/subaga-milenia/SmartPark2.PNG"><img src="img/logo/subaga-milenia/SmartPark2.PNG" alt=""></a>
                 <h3>IoT of a SMART PARKING</h3>
                 <p>Smart parking technologies are enabling a brand new
                     parking experience. Sensor networks that detect vehicle occupancy, embedded pcs, IoT gateways and cloud are providing the basic intelligence behind smart parking systems.
                 </p>
             </div>
-            <div class=" Portfolio-box printdesign">
-                <a href="img/logo/subaga-milenia/GovernmentTax2.png"><img src="img/logo/subaga-milenia/GovernmentTax2.png" alt=""></a>
-                <h3> IoT of a GOVERNMENT TAX</h3>
-                <p>Lorem Ipsum dolor sit amet</p>
-            </div>
-            <div class="Portfolio-box webdesign">
+            <div class="Portfolio-box medium">
                 <a href="img/logo/subaga-milenia/SmallMedium2.png"><img src="img/logo/subaga-milenia/SmallMedium2.png" alt=""></a>
                 <h3>IoT of a SMALL MEDIUM BUSINESS</h3>
                 <p>Lorem Ipsum dolor sit amet</p>
             </div>
-            <div class=" Portfolio-box branding">
+            <div class=" Portfolio-box tax">
+                <a href="img/logo/subaga-milenia/GovernmentTax2.png"><img src="img/logo/subaga-milenia/GovernmentTax2.png" alt=""></a>
+                <h3> IoT of a GOVERNMENT TAX</h3>
+                <p>Lorem Ipsum dolor sit amet</p>
+            </div>
+            <div class=" Portfolio-box power">
                 <a href="img/logo/subaga-milenia/Tappingbox.png"><img src="img/logo/subaga-milenia/Tappingbox.png" alt=""></a>
                 <h3>IoT in CONTROLLING A POWER DISTRIBUTION</h3>
                 <p>Lorem Ipsum dolor sit amet</p>
             </div>
-            <div class=" Portfolio-box photography">
+            <div class=" Portfolio-box power">
                 <a href="img/logo/subaga-milenia/Tappingbox2.png"><img src="img/logo/subaga-milenia/Tappingbox2.png" alt=""></a>
                 <h3>IoT in CONTROLLING A POWER DISTRIBUTION 2</h3>
                 <p>Lorem Ipsum dolor sit amet</p>
@@ -422,10 +422,6 @@
         </div>
     </section>
     <!--main-section-end-->
-
-    
-
-
 
     <section class="business-talking">
         <!--business-talking-start-->

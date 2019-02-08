@@ -18,3 +18,8 @@ Route::get('/', function () {
 Route::get('/list', function () {
     return view('list');
 });
+
+$router->group(['prefix' => 'api'], function () use ($router) {
+    //News Routes
+    $router->get('nav-bar',  ['uses' => 'ApiController@getNavBar']);
+});
