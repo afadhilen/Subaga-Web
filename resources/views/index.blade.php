@@ -87,7 +87,7 @@
         <a href="{{url('list')}}" data-link='subaga_inti_milenia'>Subaga Inti Milenia</a>
         <a href="#">Pendaerahan Pajak</a>
         <a href="#">Adora Solusi</a>
-        <a href="#">Hexadata Primakom</a>
+        <a href="#" data-link='hexadata'>Hexadata Primakom</a>
       </div>
     </div>
 
