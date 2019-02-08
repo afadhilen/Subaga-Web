@@ -25,6 +25,16 @@ class ApiController extends Controller
                     'contact' => 'Contact'
                 ];
                 break;
+
+            case 'hexadata':
+                $nav_bar_arr['logo'] = 'sbg-hexa';
+                $nav_bar_arr['name'] = 'Hexadata Primakom';
+                $nav_bar_arr['link'] = [
+                    'service' => 'Profil',
+                    'portfolio' => 'Portfolio',
+                    'contact' => 'Contact'
+                ];
+                break;    
             
             default:
                 $nav_bar_arr['logo'] = 'sbg-group';

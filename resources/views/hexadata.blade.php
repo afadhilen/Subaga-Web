@@ -57,7 +57,7 @@
                    </div> -->
                </div>
                <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
-                   <img src="img/logo/subaga-milenia/logo-subaga-milenia.png" alt="">
+                   <img src="img/logo/sbg-hexa.png" alt="">
                </figure>
 
            </div>

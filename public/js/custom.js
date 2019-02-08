@@ -117,7 +117,7 @@ $(function () {
                     link_container.empty();
 
                     //hide, change, then show logo
-                    var new_logo = '<img src="img/logo/'+data['logo']+'.png" alt="">';
+                    var new_logo = '<img src="img/logo/'+data['logo']+'.png" alt="" style="posistion:relative;">';
                     logo.fadeOut(1600);
                     logo.html(new_logo);
                     logo.fadeIn(1600).delay('slow');
