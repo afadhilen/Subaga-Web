@@ -115,10 +115,10 @@
 
     <nav class="main-nav-outer" id="test">
         <!--main-nav-start-->
-        <div class="container" style="width: 100%">
+        <div class="container" style="width: 100%;">
             <ul class="main-nav">
-                <li><a href="#company" onclick="openNav()">Subaga Group &nbsp; <i class="fa fa-angle-right"></i></a></li>
-                <li class="small-logo"><a class="btn"><img src="img/small-logo.png" alt=""></a></li>
+                <li><a href="#company" onclick="openNav()"><span class="company-name">Subaga Group</span>&nbsp; <i class="fa fa-angle-right"></i></a></li>
+                <li class="small-logo company-logo"><a class="btn"><img src="img/small-logo.png" alt=""></a></li>
                 <span class="dynamic-nav">
                     <li><a href="#service">Profil</a></li>
                     <li><a href="#anak">Anak Perusahaan</a></li>

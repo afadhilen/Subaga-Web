@@ -95,8 +95,18 @@ $(function () {
             },  
             success:function(data) {
                 var container = $('.dynamic-nav');
+                var company_name = $('.company-name');
+                var logo = $('.company-logo');
+                
+                company_name.html(data['name']);
+                                 
+                var new_logo = '<a class="btn"><img src="img/small-logo.png" alt=""></a>';
+                logo.fadeOut('slow');
+                logo.html(new_logo);
+                logo.fadeIn('slow');
+
                 container.hide('slow');
-                container.empty().delay('slow');  
+                container.empty().delay('slow');
 
                 $.each(data['link'], function( id, title ) {
                     var new_link = '<li><a href="#'+id+'">'+title+'</a></li>';

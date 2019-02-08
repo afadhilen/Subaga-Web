@@ -10,12 +10,14 @@ class ApiController extends Controller
         $id = $request->id;
 
         $nav_bar_arr = [
+            'name' => 'Subaga Group',
             'logo' => '',
             'link' => [], //anchor => title
         ]; 
 
         switch ($id) {
             case 'subaga-inti-milenia':
+                $nav_bar_arr['name'] = 'Subaga Inti Milenia';
                 $nav_bar_arr['link'] = [
                     'service' => 'Profil',
                     'portfolio' => 'Portfolio',
@@ -24,6 +26,7 @@ class ApiController extends Controller
                 break;
             
             default:
+                $nav_bar_arr['name'] = 'Subaga Group';
                 $nav_bar_arr['link'] = [
                     'service' => 'Profil',
                     'anak' => 'Anak Perusahaan',
