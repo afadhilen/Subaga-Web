@@ -16,7 +16,7 @@ class ApiController extends Controller
         ]; 
 
         switch ($id) {
-            case 'subaga-inti-milenia':
+            case 'subaga_inti_milenia':
                 $nav_bar_arr['name'] = 'Subaga Inti Milenia';
                 $nav_bar_arr['link'] = [
                     'service' => 'Profil',
@@ -38,5 +38,11 @@ class ApiController extends Controller
         }
 
         return $nav_bar_arr;
+    }
+
+    public function getView(Request $request){
+        $id = $request->id;
+
+        return view($id);
     }
 }

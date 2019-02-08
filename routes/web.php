@@ -19,7 +19,7 @@ Route::get('/list', function () {
     return view('list');
 });
 
-$router->group(['prefix' => 'api'], function () use ($router) {
-    //News Routes
+$router->group(['prefix' => 'ajax'], function () use ($router) {
     $router->get('nav-bar',  ['uses' => 'ApiController@getNavBar']);
+    $router->get('view',  ['uses' => 'ApiController@getView']);
 });

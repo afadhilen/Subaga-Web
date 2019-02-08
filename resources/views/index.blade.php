@@ -64,7 +64,7 @@
         <!--main-nav-start-->
         <div class="container" style="width: 100%;">
             <ul class="main-nav">
-                <li><a href="#company" onclick="openNav()"><span class="company-name">Subaga Group</span>&nbsp; <i class="fa fa-angle-right"></i></a></li>
+                <li><a onclick="openNav()"><span class="company-name">Subaga Group</span>&nbsp; <i class="fa fa-angle-right"></i></a></li>
                 <li class="small-logo company-logo"><a class="btn"><img src="img/small-logo.png" alt=""></a></li>
                 <span class="dynamic-nav">
                     <li><a href="#service">Profil</a></li>
@@ -82,9 +82,9 @@
     <div id="myNav" class="overlay" style="z-index:9999999">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content switch-menu">
-        <a href="{{url('/')}}" data-link='subaga-group'>Subaga Group</a>
+        <a href="{{url('/')}}" data-link='subaga_group'>Subaga Group</a>
         <a href="#">Subaga Mitra Solusi</a>
-        <a href="{{url('list')}}" data-link='subaga-inti-milenia'>Subaga Inti Milenia</a>
+        <a href="{{url('list')}}" data-link='subaga_inti_milenia'>Subaga Inti Milenia</a>
         <a href="#">Pendaerahan Pajak</a>
         <a href="#">Adora Solusi</a>
         <a href="#">Hexadata Primakom</a>
@@ -92,7 +92,7 @@
     </div>
 
     <!-- Use any element to open/show the overlay navigation menu -->
-    <div class='content'>
+    <div class='content-default'>
         <section class="main-section" id="service">
             <!--main-section-start-->
             <div class="container">
@@ -451,6 +451,11 @@
             </section>
         </div>
     </div>
+
+    <div class="content-dynamic" style="display:none">
+
+    </div>
+
     <footer class="footer">
         <div class="container">
             <div class="footer-logo"><a href="#"><img src="img/footer-logo.png" alt=""></a></div>

@@ -1,4 +1,4 @@
-var current_link = 'subaga-group';
+var current_link = 'subaga_group';
 
 $(function(){
     $('#test').scrollToFixed();
@@ -91,7 +91,7 @@ $(function () {
         var id = $(this).data('link');
 
         if(id != current_link){
-            if (id != 'subaga-group') {
+            if (id != 'subaga_group') {
                 $('.header').hide('slow');
                 $(window).scrollTop(0);
             } else {
@@ -100,12 +100,12 @@ $(function () {
             }
 
             $.ajax({
-                url:"/api/nav-bar",
+                url:"/ajax/nav-bar",
                 data: {
                     id: id
                 },  
                 success:function(data) {
-                    var container = $('.dynamic-nav');
+                    var link_container = $('.dynamic-nav');
                     var company_name = $('.company-name');
                     var logo = $('.company-logo');
 
@@ -113,8 +113,8 @@ $(function () {
                     company_name.html(data['name']);
 
                     //hide, empty, add new one, then show link for nav bar
-                    container.hide(1500);
-                    container.empty();
+                    link_container.hide(1500);
+                    link_container.empty();
 
                     //hide, change, then show logo
                     var new_logo = '<a class="btn"><img src="img/small-logo.png" alt=""></a>';
@@ -124,8 +124,8 @@ $(function () {
 
                     $.each(data['link'], function( id, title ) {
                         var new_link = '<li><a href="#'+id+'">'+title+'</a></li>';
-                        container.append(new_link);
-                    });
+                        link_container.append(new_link);
+                    }); 
 
                     $('.main-nav li a').bind('click', function(event) {
                         var $anchor = $(this);
@@ -139,9 +139,26 @@ $(function () {
                         event.preventDefault();
                     });
 
-                    container.slideToggle(800);
+                    link_container.slideToggle(800);
+                },
+                error: function(){
+                    //handle error
                 }
             });
+
+            if (id != 'subaga_group') {
+                $('.content-default').slideUp('slow');
+
+                $('.content-dynamic').load('ajax/view?id='+id);
+
+                $('.content-dynamic').hide();
+                $('.content-dynamic').slideDown().delay('slow');
+                $(window).scrollTop(0);
+            } else {
+                $('.content-dynamic').slideUp('slow');
+                $('.content-default').slideDown('slow').delay('slow');
+                $(window).scrollTop(0);
+            }
 
             //change current_link
             current_link = id;
