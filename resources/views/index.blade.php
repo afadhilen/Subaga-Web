@@ -19,11 +19,11 @@
     <link href="{{ asset('css/animate.css') }}" rel="stylesheet" type="text/css" >
     <link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet" type="text/css" >
     <link href="{{ asset('css/magnific-popup.css') }}" rel="stylesheet" type="text/css" >
+    <link href="{{ asset('css/custom.css') }}" rel="stylesheet" type="text/css" >
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
     {{-- <script type="text/javascript" src="{{ asset('js/jquery.1.8.3.min.js') }}"></script> --}}
-    <script type="text/javascript" src="{{ asset('js/custom.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/bootstrap.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/wow.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/classie.js') }}"></script>
@@ -31,6 +31,8 @@
     <script type="text/javascript" src="{{ asset('js/jquery.easing.1.3.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/jquery.isotope.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/magnific-popup.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/custom.js') }}"></script>
+
     {{-- <script src="contactform/contactform.js"></script> --}}
 
     <!-- =======================================================
@@ -39,61 +41,6 @@
     Author: BootstrapMade
     Author URL: https://bootstrapmade.com
     ======================================================= -->
-    <style>
-    body {
-      font-family: 'Lato', sans-serif;
-    }
-
-    .overlay {
-      height: 100%;
-      width: 0;
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      background-color: rgb(0,0,0);
-      background-color: rgba(0,0,0, 0.9);
-      overflow-x: hidden;
-      transition: 0.5s;
-    }
-
-    .overlay-content {
-      position: relative;
-      top: 25%;
-      width: 100%;
-      text-align: center;
-      margin-top: 30px;
-    }
-
-    .overlay a {
-      padding: 15px;
-      text-decoration: none;
-      font-size: 30px;
-      color: #818181;
-      display: block;
-      transition: 0.3s;
-    }
-
-    .overlay a:hover, .overlay a:focus {
-      color: #f1f1f1;
-    }
-
-    .overlay .closebtn {
-      position: absolute;
-      top: 20px;
-      right: 45px;
-      font-size: 60px;
-    }
-
-    @media screen and (max-height: 450px) {
-      .overlay a {font-size: 20px}
-      .overlay .closebtn {
-      font-size: 40px;
-      top: 15px;
-      right: 35px;
-      }
-    }
-    </style>
 </head>
 
 <body>

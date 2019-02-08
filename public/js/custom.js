@@ -98,13 +98,16 @@ $(function () {
                 var company_name = $('.company-name');
                 var logo = $('.company-logo');
                 
+                //change company name
                 company_name.html(data['name']);
-                                 
+                
+                //hide, change, then show logo
                 var new_logo = '<a class="btn"><img src="img/small-logo.png" alt=""></a>';
                 logo.fadeOut('slow');
                 logo.html(new_logo);
                 logo.fadeIn('slow');
 
+                //hide, empty, add new one, then show link for nav bar
                 container.hide('slow');
                 container.empty().delay('slow');
 
@@ -125,10 +128,10 @@ $(function () {
                     event.preventDefault();
                 });
 
-                container.show('slow');
-                closeNav();
+                container.slideToggle('slow');
             }
         });
 
+        closeNav();
     }); 
 });
