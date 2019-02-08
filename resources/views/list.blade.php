@@ -291,7 +291,7 @@
         </div>
     </section> -->
     <!--main-section client-part-end-->
-     <div class="c-logo-part">
+     <div class="c-logo-part" style="background: #f7f7f7">
         <!--c-logo-part-start-->
         <div class="container" style="width: 100%">
             <ul>
