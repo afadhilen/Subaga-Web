@@ -23,7 +23,8 @@
                        </div>
                        <div class="service-list-col2">
                            <h3>Visi</h3>
-                           <p>Menjadi perusahaan yang mampu mewujudkan masa depan era digital</p>
+                           <p>Menjadi perusahaan penyedia jasa Solusi Teknologi Informasi yang terbia- dengan memberikan “Better Value” disbanding perusahaan lain.
+                           </p>
                        </div>
                    </div>
                    <div class="service-list">
@@ -32,7 +33,7 @@
                        </div>
                        <div class="service-list-col2">
                            <h3>Misi</h3>
-                               <li>Menjadikan perusahaan yang mewujudkan kompetensi sumber daya manusia melalui  hasil karya digital</li>
+                               <li>Hexadata sebgai perushaan IT System Intefrator, memberikan solusi Teknologi Informasi yang terintegrasi untuk organisasi Pemerintahan dan Swasta</li>
                                <!-- <li>Lorem ipsum dolor</li>
                                <li>Lorem ipsum</li> -->
                        </div>
@@ -56,8 +57,8 @@
                        </div>
                    </div> -->
                </div>
-               <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
-                   <img src="img/logo/sbg-hexa.png" alt="">
+               <figure class="col-lg-8 col-sm-6  text-center wow fadeInUp delay-02s">
+                   <img src="img/logo/sbg-hexa2.png" alt="">
                </figure>
 
            </div>
