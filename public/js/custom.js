@@ -1,3 +1,5 @@
+var current_link = 'subaga-group';
+
 $(function(){
     $('#test').scrollToFixed();
     $('.res-nav_click').click(function() {
@@ -88,49 +90,54 @@ $(function () {
 
         var id = $(this).data('link');
 
-        $.ajax({
-            url:"/api/nav-bar",
-            data: {
-                id: id
-            },  
-            success:function(data) {
-                var container = $('.dynamic-nav');
-                var company_name = $('.company-name');
-                var logo = $('.company-logo');
-                
-                //change company name
-                company_name.html(data['name']);
-                
-                //hide, change, then show logo
-                var new_logo = '<a class="btn"><img src="img/small-logo.png" alt=""></a>';
-                logo.fadeOut('slow');
-                logo.html(new_logo);
-                logo.fadeIn('slow');
+        if(id != current_link){
+            $.ajax({
+                url:"/api/nav-bar",
+                data: {
+                    id: id
+                },  
+                success:function(data) {
+                    var container = $('.dynamic-nav');
+                    var company_name = $('.company-name');
+                    var logo = $('.company-logo');
 
-                //hide, empty, add new one, then show link for nav bar
-                container.hide('slow');
-                container.empty().delay('slow');
+                    //change company name
+                    company_name.html(data['name']);
 
-                $.each(data['link'], function( id, title ) {
-                    var new_link = '<li><a href="#'+id+'">'+title+'</a></li>';
-                    container.append(new_link);
-                });
+                    //hide, empty, add new one, then show link for nav bar
+                    container.hide(1500);
+                    container.empty();
 
-                $('.main-nav li a').bind('click', function(event) {
-                    var $anchor = $(this);
+                    //hide, change, then show logo
+                    var new_logo = '<a class="btn"><img src="img/small-logo.png" alt=""></a>';
+                    logo.fadeOut(1600);
+                    logo.html(new_logo);
+                    logo.fadeIn(1600).delay('slow');
 
-                    $('html, body').stop().animate({
-                        scrollTop: $($anchor.attr('href')).offset().top - 102
-                    }, 1500, 'easeInOutExpo');
-                    if ($(window).width() < 768) {
-                        $('.main-nav').hide();
-                    }
-                    event.preventDefault();
-                });
+                    $.each(data['link'], function( id, title ) {
+                        var new_link = '<li><a href="#'+id+'">'+title+'</a></li>';
+                        container.append(new_link);
+                    });
 
-                container.slideToggle('slow');
-            }
-        });
+                    $('.main-nav li a').bind('click', function(event) {
+                        var $anchor = $(this);
+
+                        $('html, body').stop().animate({
+                            scrollTop: $($anchor.attr('href')).offset().top - 102
+                        }, 1500, 'easeInOutExpo');
+                        if ($(window).width() < 768) {
+                            $('.main-nav').hide();
+                        }
+                        event.preventDefault();
+                    });
+
+                    container.slideToggle(800);
+                }
+            });
+
+            //change current_link
+            current_link = id;
+        }
 
         closeNav();
     }); 
