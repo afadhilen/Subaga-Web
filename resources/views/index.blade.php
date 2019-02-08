@@ -133,7 +133,7 @@
         <a href="{{url('/')}}"><i>Subaga Group</i></a>
         <a href="#"><i>Subaga Mitra Solusi</i></a>
         <a href="{{url('list')}}">Subaga Inti Milenia</a>
-        <a href="#"><u>Pendaerahan Pajak</u></a>
+        <a href="#">Pendaerahan Pajak</a>
         <a href="#">Adora Solusi</a>
         <a href="#">Hexadata Primakom</a>
       </div>
