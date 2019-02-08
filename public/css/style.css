@@ -97,7 +97,7 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
+	background:url(../img/background.png) left top repeat;
 	padding:280px 0;
 }
 .logo{
@@ -124,7 +124,7 @@ p{
 	display:inline-block;
 	font-family: 'Montserrat',sans-serif;
 	font-size:14px;
-	color: #bcbcbc;
+	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: 400;
 	margin:0 5px 0 0;
@@ -772,7 +772,7 @@ border: 2px solid #fff;
 ---------------------------------*/
 
 .footer{
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
+	background:url(../img/background.png) left top repeat;
 	padding:35px 0 35px;
 }
 .footer-logo{

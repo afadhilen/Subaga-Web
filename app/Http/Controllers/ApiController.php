@@ -17,6 +17,7 @@ class ApiController extends Controller
 
         switch ($id) {
             case 'subaga_inti_milenia':
+                $nav_bar_arr['logo'] = 'sbg-im';
                 $nav_bar_arr['name'] = 'Subaga Inti Milenia';
                 $nav_bar_arr['link'] = [
                     'service' => 'Profil',
@@ -26,6 +27,7 @@ class ApiController extends Controller
                 break;
             
             default:
+                $nav_bar_arr['logo'] = 'sbg-group';
                 $nav_bar_arr['name'] = 'Subaga Group';
                 $nav_bar_arr['link'] = [
                     'service' => 'Profil',
