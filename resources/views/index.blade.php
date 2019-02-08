@@ -55,7 +55,7 @@
                 <li>Membangun kepercayaan serta inovasi teknologi dengan prinsip profesional, solusional, pendampingan, kepercayaan dan
                 pelayanan terbaik</li>
             </ul>
-            <a class="link animated fadeInUp delay-1s servicelink" href="#service">Explore More</a>
+            <a class="btn btn-lg button-hover animated fadeInUp delay-1s servicelink" href="#service">Explore More</a>
         </div>
     </header>
     <!--header-end-->
@@ -64,8 +64,8 @@
         <!--main-nav-start-->
         <div class="container" style="width: 100%;">
             <ul class="main-nav">
-                <li><a onclick="openNav()"><span class="company-name">Subaga Group</span>&nbsp; <i class="fa fa-angle-right"></i></a></li>
-                <li class="small-logo"><a class="btn company-logo" style="width:150px; height:80px"><img src="img/logo/sbg-group.png" alt=""></a></li>
+                <li><a class="btn" onclick="openNav()"><span class="company-name">Subaga Group</span>&nbsp; <i class="fa fa-angle-right"></i></a></li>
+                <li class="small-logo"><a class="btn company-logo" style="width:150px; height:80px;"><img src="img/logo/sbg-group.png" alt=""></a></li>
                 <span class="dynamic-nav">
                     <li><a href="#service">Profil</a></li>
                     <li><a href="#anak">Anak Perusahaan</a></li>
@@ -255,18 +255,19 @@
             </div>
         </section>
         <!--main-section client-part-end-->
-         <div class="c-logo-part">
-            <!--c-logo-part-start-->
-            <div class="container">
-                <ul>
-                    <li><a href="#"><img src="img/c-liogo1.png" alt=""></a></li>
-                    <li><a href="#"><img src="img/c-liogo2.png" alt=""></a></li>
-                    <li><a href="#"><img src="img/c-liogo3.png" alt=""></a></li>
-                    <li><a href="#"><img src="img/c-liogo4.png" alt=""></a></li>
-                    <li><a href="#"><img src="img/c-liogo5.png" alt=""></a></li>
-                </ul>
-            </div>
-        </div>
+        <div class="c-logo-part" style="background: #f7a762">
+             <!--c-logo-part-start-->
+             <div class="container" style="width: 100%">
+                 <ul>
+                     <li><a href="#"><img src="img/logo/aws.png" width="122" height="53" alt=""></a></li>
+                     <li><a href="#"><img src="img/logo/ruuvi.png" width="122" height="53" alt=""></a></li>
+                     <li><a href="#"><img src="img/logo/icon.png" width="122" height="53" alt=""></a></li>
+                     <li><a href="#"><img src="img/logo/alibaba.png" width="122" height="53" alt=""></a></li>
+                     <li><a href="#"><img src="img/logo/huawei.png" width="122" height="53" alt=""></a></li>
+                     <li><a href="#"><img src="img/logo/ssi.png" width="122" height="53" alt=""></a></li>
+                 </ul>
+             </div>
+         </div>
         <!--c-logo-part-end-->
 
         <section class="main-section team" id="team" style="background-color: #fafafa">

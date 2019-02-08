@@ -51,3 +51,14 @@ body {
   right: 35px;
   }
 }
+
+.button-hover{
+  color: white !important;
+  background: #f27a12;
+  border-radius: 0 !important;
+}
+.button-hover:hover{
+  color: #f27a12 !important;
+  background: white;
+  border-radius: 0 !important;
+}
