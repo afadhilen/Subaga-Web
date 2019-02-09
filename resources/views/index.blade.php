@@ -65,7 +65,7 @@
         <div class="container" style="width: 100%;">
             <ul class="main-nav">
                 <li><a class="btn" onclick="openNav()"><span class="company-name">Subaga Group</span>&nbsp; <i class="fa fa-angle-right"></i></a></li>
-                <li class="small-logo"><a class="btn company-logo" style="width:150px; height:80px;"><img src="img/logo/sbg_group.png" alt=""></a></li>
+                <li class="small-logo"><a class="btn company-logo" style="width:150px; height:80px;"><img src="img/logo/sbg_group.png" id="company-logo" alt=""></a></li>
                 <span class="dynamic-nav">
                     <li><a href="#service">Profil</a></li>
                     <li><a href="#anak">Anak Perusahaan</a></li>
@@ -459,8 +459,8 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="footer-logo"><a href="#"><img src="img/footer-logo.png" alt=""></a></div>
-            <span class="copyright">&copy; Knight Theme. All Rights Reserved</span>
+            <div class="footer-logo"><a href="#"><img src="img/logo/sbg_group.png" alt=""></a></div>
+            <span class="copyright">&copy; Subaga Group. All Rights Reserved</span>
             <div class="credits">
                 <!--
           All the links in the footer should remain intact.
@@ -468,7 +468,7 @@
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Knight
         -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+ <!--                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
             </div>
         </div>
     </footer>

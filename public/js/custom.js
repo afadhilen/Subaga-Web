@@ -128,10 +128,8 @@ $(function () {
                     link_container.empty();
 
                     //hide, change, then show logo
-                    var new_logo = '<img src="img/logo/'+data['logo']+'.png" alt="" style="posistion:relative;">';
-                    logo.fadeOut(1600);
+                    var new_logo = '<img src="img/logo/'+data['logo']+'.png" id="'+id+'" alt="" style="posistion:relative;">';
                     logo.html(new_logo);
-                    logo.fadeIn(1600).delay('slow');
 
                     $.each(data['link'], function( id, title ) {
                         var new_link = '<li><a href="#'+id+'">'+title+'</a></li>';
@@ -148,13 +146,14 @@ $(function () {
             });
             
             if (id != 'sbg_group') {
-                $('.content-default').slideToggle(1000, 'easeOutCirc');
+                $('.content-default').slideUp(1500, 'easeOutCirc');
+                $('.content-dynamic').slideUp(1500, 'easeOutCirc');
+
+                $('.content-dynamic').empty();
 
                 $('.content-dynamic').load('ajax/view?id='+id, function(){
                     initPortfolio();
-                }).delay(1500);
-                $('.content-dynamic').hide();
-                $('.content-dynamic').slideToggle(1000, 'easeOutCirc');
+                }).slideDown(1500, 'easeOutCirc').delay(1500);
 
                 $(window).scrollTop(0);
             } else {
@@ -162,8 +161,8 @@ $(function () {
                 $('#navbar').trigger('detach.ScrollToFixed');
                 $('#navbar').scrollToFixed();
 
-                $('.content-dynamic').slideToggle(1000, 'easeOutCirc');;
-                $('.content-default').slideToggle(1000, 'easeOutCirc');;
+                $('.content-dynamic').slideUp(2000, 'easeOutCirc');
+                $('.content-default').slideDown(2000, 'easeOutCirc');
                 $(window).scrollTop(0);
             }
 
