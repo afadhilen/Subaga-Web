@@ -146,15 +146,15 @@ $(function () {
                     //handle error
                 }
             });
-
+            
             if (id != 'sbg_group') {
-                $('.content-default').slideUp('slow');
+                $('.content-default').slideToggle(1000, 'easeOutCirc');
 
                 $('.content-dynamic').load('ajax/view?id='+id, function(){
                     initPortfolio();
-                });
+                }).delay(1500);
                 $('.content-dynamic').hide();
-                $('.content-dynamic').slideDown().delay('slow');
+                $('.content-dynamic').slideToggle(1000, 'easeOutCirc');
 
                 $(window).scrollTop(0);
             } else {
@@ -162,8 +162,8 @@ $(function () {
                 $('#navbar').trigger('detach.ScrollToFixed');
                 $('#navbar').scrollToFixed();
 
-                $('.content-dynamic').slideUp('slow');
-                $('.content-default').slideDown('slow').delay('slow');
+                $('.content-dynamic').slideToggle(1000, 'easeOutCirc');;
+                $('.content-default').slideToggle(1000, 'easeOutCirc');;
                 $(window).scrollTop(0);
             }
 
