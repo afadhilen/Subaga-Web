@@ -9,7 +9,7 @@ function closeNav() {
 }
 
 function initScrollAnimation(id) {
-    $('.main-nav li a').bind('click', function(event) {
+    $('.main-nav li a, .servicelink').bind('click', function(event) {
         var anchor = $(this).attr('href')
 
         if (id != 'sbg_group') {
