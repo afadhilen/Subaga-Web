@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, maximum-scale=1">
 
     <title>Homepage</title>
-    <link rel="icon" href="favicon.png" type="image/png">
+    {{-- <link rel="icon" href="favicon.png" type="image/png"> --}}
     <link rel="shortcut icon" href="favicon.ico" type="img/x-icon">
 
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -60,7 +60,7 @@
     </header>
     <!--header-end-->
 
-    <nav class="main-nav-outer" id="test">
+    <nav class="main-nav-outer" id="navbar">
         <!--main-nav-start-->
         <div class="container" style="width: 100%;">
             <ul class="main-nav">
@@ -473,15 +473,5 @@
         </div>
     </footer>
 </body>
-
-<script>
-    function openNav() {
-      document.getElementById("myNav").style.width = "100%";
-    }
-
-    function closeNav() {
-      document.getElementById("myNav").style.width = "0%";
-    }
-</script>
 
 </html>

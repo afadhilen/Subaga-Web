@@ -1,52 +1,36 @@
 var current_link = 'sbg_group';
 
-$(function(){
-    $('#test').scrollToFixed();
-    $('.res-nav_click').click(function() {
-        $('.main-nav').slideToggle();
-        return false;
-    });
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
 
-    $('.Portfolio-box').magnificPopup({
-      delegate: 'a',
-      type: 'image'
-    });
-    
-    wow = new WOW({
-        animateClass: 'animated',
-        offset: 100
-    });
-    wow.init();
-});
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
 
-$(window).on('load', function () {
-    
-    $('.main-nav li a, .servicelink').bind('click', function(event) {
-        var $anchor = $(this);
+function initScrollAnimation(id) {
+    $('.main-nav li a').bind('click', function(event) {
+        var anchor = $(this).attr('href')
+
+        if (id != 'sbg_group') {
+            anchor = '.content-dynamic ' + anchor;
+        }
 
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top - 102
+            scrollTop: $(anchor).offset().top - 102
         }, 1500, 'easeInOutExpo');
-        /*
-        if you don't want to use the easing effects:
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1000);
-        */
         if ($(window).width() < 768) {
             $('.main-nav').hide();
         }
         event.preventDefault();
     });
-})
+}
 
-$(window).on('load', function () {
-
+function initPortfolio() {
     var $container = $('.portfolioContainer'),
         $body = $('body'),
         colW = 375,
         columns = null;
-
 
     $container.isotope({
         // disable window resizing
@@ -68,6 +52,7 @@ $(window).on('load', function () {
         }
 
     }).smartresize(); // trigger resize to set container width
+
     $('.portfolioFilter a').click(function() {
         $('.portfolioFilter .current').removeClass('current');
         $(this).addClass('current');
@@ -79,8 +64,32 @@ $(window).on('load', function () {
         });
         return false;
     });
+}
 
+$(function(){
+    $('#navbar').scrollToFixed();
+
+    $('.res-nav_click').click(function() {
+        $('.main-nav').slideToggle();
+        return false;
+    });
+
+    $('.Portfolio-box').magnificPopup({
+      delegate: 'a',
+      type: 'image'
+    });
+    
+    wow = new WOW({
+        animateClass: 'animated',
+        offset: 100
+    });
+    wow.init();
 });
+
+$(window).on('load', function () {
+    initScrollAnimation(current_link);
+    initPortfolio();
+})
 
 $(function () {
     var link = $('.switch-menu a');
@@ -127,17 +136,7 @@ $(function () {
                         link_container.append(new_link);
                     }); 
 
-                    $('.main-nav li a').bind('click', function(event) {
-                        var $anchor = $(this);
-
-                        $('html, body').stop().animate({
-                            scrollTop: $($anchor.attr('href')).offset().top - 102
-                        }, 1500, 'easeInOutExpo');
-                        if ($(window).width() < 768) {
-                            $('.main-nav').hide();
-                        }
-                        event.preventDefault();
-                    });
+                    initScrollAnimation(id);
 
                     link_container.slideToggle(800);
                 },
@@ -149,12 +148,18 @@ $(function () {
             if (id != 'sbg_group') {
                 $('.content-default').slideUp('slow');
 
-                $('.content-dynamic').load('ajax/view?id='+id);
-
+                $('.content-dynamic').load('ajax/view?id='+id, function(){
+                    initPortfolio();
+                });
                 $('.content-dynamic').hide();
                 $('.content-dynamic').slideDown().delay('slow');
+
                 $(window).scrollTop(0);
             } else {
+                //detach first, so it wont be sticky
+                $('#navbar').trigger('detach.ScrollToFixed');
+                $('#navbar').scrollToFixed();
+
                 $('.content-dynamic').slideUp('slow');
                 $('.content-default').slideDown('slow').delay('slow');
                 $(window).scrollTop(0);
