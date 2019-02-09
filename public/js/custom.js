@@ -18,7 +18,8 @@ function initScrollAnimation(id) {
 
         $('html, body').stop().animate({
             scrollTop: $(anchor).offset().top - 102
-        }, 1500, 'easeInOutExpo');
+        }, 1500, 'easeOutCirc');
+        
         if ($(window).width() < 768) {
             $('.main-nav').hide();
         }
@@ -114,6 +115,7 @@ $(function () {
                     id: id
                 },  
                 success:function(data) {
+                    var navbar_link = $('.main-nav');
                     var link_container = $('.dynamic-nav');
                     var company_name = $('.company-name');
                     var logo = $('.company-logo');
@@ -122,8 +124,7 @@ $(function () {
                     company_name.html(data['name']);
 
                     //hide, empty, add new one, then show link for nav bar
-                    link_container.toggle('slide', 2000);
-                    // link_container.hide(2000);
+                    navbar_link.slideToggle(1000, 'easeOutCirc');
                     link_container.empty();
 
                     //hide, change, then show logo
@@ -139,8 +140,7 @@ $(function () {
 
                     initScrollAnimation(id);
 
-                    link_container.toggle('slide', 2000);
-                    // link_container.slideToggle(1000);
+                    navbar_link.slideToggle(1000, 'easeOutCirc');
                 },
                 error: function(){
                     //handle error
