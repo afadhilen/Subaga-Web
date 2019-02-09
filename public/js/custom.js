@@ -122,7 +122,8 @@ $(function () {
                     company_name.html(data['name']);
 
                     //hide, empty, add new one, then show link for nav bar
-                    link_container.hide(1500);
+                    link_container.toggle('slide', 2000);
+                    // link_container.hide(2000);
                     link_container.empty();
 
                     //hide, change, then show logo
@@ -138,7 +139,8 @@ $(function () {
 
                     initScrollAnimation(id);
 
-                    link_container.slideToggle(800);
+                    link_container.toggle('slide', 2000);
+                    // link_container.slideToggle(1000);
                 },
                 error: function(){
                     //handle error
