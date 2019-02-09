@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ApiController extends Controller
+class AjaxController extends Controller
 {
     public function getNavBar(Request $request) {
         $id = $request->id;
@@ -16,8 +16,8 @@ class ApiController extends Controller
         ]; 
 
         switch ($id) {
-            case 'subaga_inti_milenia':
-                $nav_bar_arr['logo'] = 'sbg-im';
+            case 'sbg_im':
+                $nav_bar_arr['logo'] = 'sbg_im';
                 $nav_bar_arr['name'] = 'Subaga Inti Milenia';
                 $nav_bar_arr['link'] = [
                     'service' => 'Profil',
@@ -26,8 +26,8 @@ class ApiController extends Controller
                 ];
                 break;
 
-            case 'hexadata':
-                $nav_bar_arr['logo'] = 'sbg-hexa';
+            case 'sbg_hexa':
+                $nav_bar_arr['logo'] = 'sbg_hexa';
                 $nav_bar_arr['name'] = 'Hexadata Primakom';
                 $nav_bar_arr['link'] = [
                     'service' => 'Profil',
@@ -37,7 +37,7 @@ class ApiController extends Controller
                 break;    
             
             default:
-                $nav_bar_arr['logo'] = 'sbg-group';
+                $nav_bar_arr['logo'] = 'sbg_group';
                 $nav_bar_arr['name'] = 'Subaga Group';
                 $nav_bar_arr['link'] = [
                     'service' => 'Profil',

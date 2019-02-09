@@ -48,7 +48,7 @@
     <header class="header" id="header">
         <div class="container">
             <figure class="logo animated fadeInDown delay-07s">
-                <a href="#"><img src="img/logo/sbg-group.png" alt=""></a>
+                <a href="#"><img src="img/logo/sbg_group.png" alt=""></a>
             </figure>
             <h1 class="animated fadeInDown delay-07s">Subaga Group</h1>
             <ul class="we-create animated fadeInUp delay-1s">
@@ -65,7 +65,7 @@
         <div class="container" style="width: 100%;">
             <ul class="main-nav">
                 <li><a class="btn" onclick="openNav()"><span class="company-name">Subaga Group</span>&nbsp; <i class="fa fa-angle-right"></i></a></li>
-                <li class="small-logo"><a class="btn company-logo" style="width:150px; height:80px;"><img src="img/logo/sbg-group.png" alt=""></a></li>
+                <li class="small-logo"><a class="btn company-logo" style="width:150px; height:80px;"><img src="img/logo/sbg_group.png" alt=""></a></li>
                 <span class="dynamic-nav">
                     <li><a href="#service">Profil</a></li>
                     <li><a href="#anak">Anak Perusahaan</a></li>
@@ -82,12 +82,12 @@
     <div id="myNav" class="overlay" style="z-index:9999999">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content switch-menu">
-        <a href="{{url('/')}}" data-link='subaga_group'>Subaga Group</a>
+        <a href="{{url('/')}}" data-link='sbg_group'>Subaga Group</a>
         <a href="#">Subaga Mitra Solusi</a>
-        <a href="{{url('list')}}" data-link='subaga_inti_milenia'>Subaga Inti Milenia</a>
+        <a href="{{url('list')}}" data-link='sbg_im'>Subaga Inti Milenia</a>
         <a href="#">Pendaerahan Pajak</a>
         <a href="#">Adora Solusi</a>
-        <a href="#" data-link='hexadata'>Hexadata Primakom</a>
+        <a href="#" data-link='sbg_hexa'>Hexadata Primakom</a>
       </div>
     </div>
 

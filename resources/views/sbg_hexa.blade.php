@@ -38,7 +38,7 @@
                    </div>
                </div>
                <figure class="col-lg-8 col-sm-6  text-center wow fadeInUp delay-02s">
-                   <img src="img/logo/sbg-hexa2.png" alt="">
+                   <img src="img/logo/sbg_hexa2.png" alt="">
                </figure>
 
            </div>

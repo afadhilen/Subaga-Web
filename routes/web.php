@@ -20,6 +20,6 @@ Route::get('/list', function () {
 });
 
 $router->group(['prefix' => 'ajax'], function () use ($router) {
-    $router->get('nav-bar',  ['uses' => 'ApiController@getNavBar']);
-    $router->get('view',  ['uses' => 'ApiController@getView']);
+    $router->get('nav-bar',  ['uses' => 'AjaxController@getNavBar']);
+    $router->get('view',  ['uses' => 'AjaxController@getView']);
 });
