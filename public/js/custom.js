@@ -1,4 +1,4 @@
-var current_link = 'subaga_group';
+var current_link = 'sbg_group';
 
 $(function(){
     $('#test').scrollToFixed();
@@ -91,7 +91,7 @@ $(function () {
         var id = $(this).data('link');
 
         if(id != current_link){
-            if (id != 'subaga_group') {
+            if (id != 'sbg_group') {
                 $('.header').hide('slow');
                 $(window).scrollTop(0);
             } else {
@@ -146,7 +146,7 @@ $(function () {
                 }
             });
 
-            if (id != 'subaga_group') {
+            if (id != 'sbg_group') {
                 $('.content-default').slideUp('slow');
 
                 $('.content-dynamic').load('ajax/view?id='+id);
