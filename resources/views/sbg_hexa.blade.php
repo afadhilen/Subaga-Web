@@ -60,7 +60,7 @@
    </div>
    <!--c-logo-part-end-->
 
-   <section class="main-section paddind" id="Portfolio">
+   <section class="main-section paddind" id="portfolio">
        <!--main-section-start-->
        <div class="container">
            <h2>Produk dan Layanan</h2>
