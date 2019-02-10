@@ -279,7 +279,7 @@
                     <div class="team-leader-box">
                         <div class="team-leader wow fadeInDown delay-03s">
                             <div class="team-leader-shadow"><a href="#"></a></div>
-                            <img src="img/service/bigdata.jpg" alt="">
+                            <img src="img/service/bigdata.jpg" height="250" width="290" alt="">
                             <ul>
                                 <li><a href="#" class="fa fa-twitter"></a></li>
                                 <li><a href="#" class="fa fa-facebook"></a></li>
@@ -294,7 +294,7 @@
                     <div class="team-leader-box">
                         <div class="team-leader  wow fadeInDown delay-06s">
                             <div class="team-leader-shadow"><a href="#"></a></div>
-                            <img src="img/service/iot.jpg" alt="">
+                            <img src="img/service/iot.jpg" height="250" width="290" alt="">
                             <ul>
                                 <li><a href="#" class="fa fa-twitter"></a></li>
                                 <li><a href="#" class="fa fa-facebook"></a></li>
@@ -309,7 +309,7 @@
                     <div class="team-leader-box">
                         <div class="team-leader wow fadeInDown delay-09s">
                             <div class="team-leader-shadow"><a href="#"></a></div>
-                            <img src="img/service/itsolution.jpg" alt="">
+                            <img src="img/service/itsolution.jpg" height="250" width="290" alt="">
                             <ul>
                                 <li><a href="#" class="fa fa-twitter"></a></li>
                                 <li><a href="#" class="fa fa-facebook"></a></li>
