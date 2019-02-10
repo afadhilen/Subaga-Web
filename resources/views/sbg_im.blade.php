@@ -77,35 +77,35 @@
          </div>
          <div class="portfolioContainer wow fadeInUp delay-04s isotope animated" style="visibility: visible;animation-name: fadeInUp;position: relative;overflow: hidden;height:760px;width: 1140px;">
              <div class=" Portfolio-box printdesign">
-                 <a href="img/Portfolio-pic1.jpg"><img src="img/Portfolio-pic1.jpg" alt=""></a>
-                 <h3>Foto Album</h3>
-                 <p>Print Design</p>
+                 <a href="img/logo/subaga-milenia/SmartPark2.PNG"><img src="img/logo/subaga-milenia/SmartPark2.PNG" height="229px" alt=""></a>
+                 <h3>IoT of a SMART PARKING</h3>
+                 <p>Smart parking technologies are enabling a brand new parking experience.</p>
              </div>
              <div class="Portfolio-box webdesign">
-                 <a href="img/Portfolio-pic2.jpg"><img src="img/Portfolio-pic2.jpg" alt=""></a>
-                 <h3>Luca Theme</h3>
-                 <p>Web Design</p>
+                 <a href="img/logo/subaga-milenia/SmallMedium2.png"><img src="img/logo/subaga-milenia/SmallMedium2.png" height="229px" alt=""></a>
+                 <h3>IoT of a SMALL MEDIUM BUSINESS</h3>
+                 <p>Lorem ipsum dolor sit amet.</p>
              </div>
              <div class=" Portfolio-box branding">
-                 <a href="img/Portfolio-pic3.jpg"><img src="img/Portfolio-pic3.jpg" alt=""></a>
-                 <h3>Uni Sans</h3>
-                 <p>Branding</p>
+                 <a href="img/logo/subaga-milenia/GovernmentTax2.png"><img src="img/logo/subaga-milenia/GovernmentTax2.png" height="229px" alt=""></a>
+                 <h3>IoT of a GOVERNMENT TAX</h3>
+                 <p>Lorem ipsum dolor sit amet.</p>
              </div>
              <div class=" Portfolio-box photography">
-                 <a href="img/Portfolio-pic4.jpg"><img src="img/Portfolio-pic4.jpg" alt=""></a>
-                 <h3>Vinyl Record</h3>
-                 <p>Photography</p>
+                 <a href="img/logo/subaga-milenia/Tappingbox.png"><img src="img/logo/subaga-milenia/Tappingbox.png" height="229px" alt=""></a>
+                 <h3>IoT in CONTROLLING A POWER DISTRIBUTION</h3>
+                 <p>Lorem ipsum dolor sit amet.</p>
              </div>
              <div class=" Portfolio-box branding">
-                 <a href="img/Portfolio-pic5.jpg"><img src="img/Portfolio-pic5.jpg" alt=""></a>
-                 <h3>Hipster</h3>
-                 <p>Branding</p>
+                 <a href="img/logo/subaga-milenia/Tappingbox2.png"><img src="img/logo/subaga-milenia/Tappingbox2.png" height="229px" alt=""></a>
+                 <h3>IoT in CONTROLLING A POWER DISTRIBUTION</h3>
+                 <p>Lorem ipsum dolor sit amet.</p>
              </div>
-             <div class=" Portfolio-box photography">
+             <!-- <div class=" Portfolio-box photography">
                  <a href="img/Portfolio-pic6.jpg"><img src="img/Portfolio-pic6.jpg" alt=""></a>
                  <h3>Windmills</h3>
                  <p>Photography</p>
-             </div>
+             </div> -->
          </div>
  </section>
 
