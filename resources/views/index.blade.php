@@ -417,7 +417,7 @@
                             <li class="dribbble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
+                    <!-- <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
                         <div class="form">
 
                             <div id="sendmessage">Your message has been sent. Thank you!</div>
@@ -447,7 +447,7 @@
                                 <div class="text-center"><button type="submit" class="input-btn">Send Message</button></div>
                             </form>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </section>
         </div>

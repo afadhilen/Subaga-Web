@@ -63,50 +63,48 @@
    <section class="main-section paddind" id="Portfolio">
        <!--main-section-start-->
        <div class="container">
-           <h2>Portfolio</h2>
-           <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-           tempor incididunt ut labore et dolore magna aliqua. </h6>
+           <h2>Produk dan Layanan</h2>
+           <h6>Untuk produk dan layanan dari perusahaan kami, bisa anda lihat di sini. </h6>
            <div class="portfolioFilter">
                <ul class="Portfolio-nav wow fadeIn delay-02s">
                    <li><a href="#" data-filter="*" class="current">All</a></li>
-                   <li><a href="#" data-filter=".smart-parking">IoT of a SMART PARKING</a></li>
-                   <li><a href="#" data-filter=".medium">IoT of a SMALL MEDIUM BUSINESS</a></li>
-                   <li><a href="#" data-filter=".tax">IoT of a GOVERNMENT TAX</a></li>
-                   <li><a href="#" data-filter=".adora">Adora Solusi</a></li>
-                   <li><a href="#" data-filter=".power">IoT in CONTROLLING A POWER DISTRIBUTION</a></li>
+                   <li><a href="#" data-filter=".payment">Payment Method</a></li>
+                   <li><a href="#" data-filter=".ui">User Interface</a></li>
+                   <li><a href="#" data-filter=".info">Information</a></li>
+                   <li><a href="#" data-filter=".support">Support Tools</a></li>
                </ul>
            </div>
 
        </div>
        <div class="portfolioContainer wow fadeInUp delay-04s isotope animated" style="visibility: visible;animation-name: fadeInUp;position: relative;overflow: hidden;height:760px;width: 1140px;">
 
-       <div class=" Portfolio-box smart-parking">
-               <a href="img/logo/subaga-milenia/SmartPark2.PNG"><img src="img/logo/subaga-milenia/SmartPark2.PNG" alt=""></a>
-               <h3>IoT of a SMART PARKING</h3>
-               <p>Smart parking technologies are enabling a brand new
-                   parking experience. Sensor networks that detect vehicle occupancy, embedded pcs, IoT gateways and cloud are providing the basic intelligence behind smart parking systems.
-               </p>
-           </div>
-           <div class="Portfolio-box medium">
-               <a href="img/logo/subaga-milenia/SmallMedium2.png"><img src="img/logo/subaga-milenia/SmallMedium2.png" alt=""></a>
-               <h3>IoT of a SMALL MEDIUM BUSINESS</h3>
-               <p>Lorem Ipsum dolor sit amet</p>
-           </div>
-           <div class=" Portfolio-box tax">
-               <a href="img/logo/subaga-milenia/GovernmentTax2.png"><img src="img/logo/subaga-milenia/GovernmentTax2.png" alt=""></a>
-               <h3> IoT of a GOVERNMENT TAX</h3>
-               <p>Lorem Ipsum dolor sit amet</p>
-           </div>
-           <div class=" Portfolio-box power">
-               <a href="img/logo/subaga-milenia/Tappingbox.png"><img src="img/logo/subaga-milenia/Tappingbox.png" alt=""></a>
-               <h3>IoT in CONTROLLING A POWER DISTRIBUTION</h3>
-               <p>Lorem Ipsum dolor sit amet</p>
-           </div>
-           <div class=" Portfolio-box power">
-               <a href="img/logo/subaga-milenia/Tappingbox2.png"><img src="img/logo/subaga-milenia/Tappingbox2.png" alt=""></a>
-               <h3>IoT in CONTROLLING A POWER DISTRIBUTION 2</h3>
-               <p>Lorem Ipsum dolor sit amet</p>
-           </div>
+      <div class=" Portfolio-box payment">
+          <a href="img/hexadata/cashless-payment-booth.png"><img src="img/hexadata/cashless-payment-booth.png" alt=""></a>
+          <h3>Payment Method</h3>
+          <p>Metode pembayaran yang dapat dilakukan
+          </p>
+        </div>
+        <div class=" Portfolio-box payment">
+          <a href="img/hexadata/dukungan-solusi-1.png"><img src="img/hexadata/dukungan-solusi-1.png" alt=""></a>
+          <h3>Payment Method</h3>
+          <p>Metode pembayaran yang dapat dilakukan
+          </p>
+        </div>
+        <div class="Portfolio-box ui">
+          <a href="img/hexadata/tampilan-1.png"><img src="img/hexadata/tampilan-1.png" alt=""></a>
+          <h3>User Interface</h3>
+          <p>Tatap muka aplikasi</p>
+        </div>
+        <div class=" Portfolio-box info">
+          <a href="img/hexadata/dashbord-1.png"><img src="img/hexadata/dashbord-1.png" alt=""></a>
+          <h3>Information</h3>
+          <p>Memantau informasi realtime</p>
+        </div>
+        <div class=" Portfolio-box support">
+          <a href="img/hexadata/dukungan-solusi-2.png"><img src="img/hexadata/dukungan-solusi-2.png" alt=""></a>
+          <h3>Support Tools</h3>
+          <p>Alat-alat pendukung</p>
+        </div>
        </div>
    </section>
    <!--main-section-end-->
@@ -147,37 +145,7 @@
                        <li class="dribbble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
                    </ul>
                </div>
-               <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
-                   <div class="form">
-
-                       <div id="sendmessage">Your message has been sent. Thank you!</div>
-                       <div id="errormessage"></div>
-                       <form action="" method="post" role="form" class="contactForm">
-                           <div class="form-group">
-                               <input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars"
-                               />
-                               <div class="validation"></div>
-                           </div>
-                           <div class="form-group">
-                               <input type="email" class="form-control input-text" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email"
-                               />
-                               <div class="validation"></div>
-                           </div>
-                           <div class="form-group">
-                               <input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4"
-                                   data-msg="Please enter at least 8 chars of subject" />
-                               <div class="validation"></div>
-                           </div>
-                           <div class="form-group">
-                               <textarea class="form-control input-text text-area" name="message" rows="5" data-rule="required" data-msg="Please write something for us"
-                                   placeholder="Message"></textarea>
-                               <div class="validation"></div>
-                           </div>
-
-                           <div class="text-center"><button type="submit" class="input-btn">Send Message</button></div>
-                       </form>
-                   </div>
-               </div>
+               <!--  -->
            </div>
        </section>
    </div>
