@@ -51,7 +51,6 @@ function initPortfolio() {
             $container.width(columns * colW)
                 .isotope('reLayout');
         }
-
     }).smartresize(); // trigger resize to set container width
 
     $('.portfolioFilter a').click(function() {
@@ -60,7 +59,6 @@ function initPortfolio() {
 
         var selector = $(this).attr('data-filter');
         $container.isotope({
-
             filter: selector,
         });
         return false;
@@ -153,6 +151,10 @@ $(function () {
 
                 $('.content-dynamic').load('ajax/view?id='+id, function(){
                     initPortfolio();
+                    $('.Portfolio-box').magnificPopup({
+                      delegate: 'a',
+                      type: 'image'
+                    });
                 }).slideDown(1500, 'easeOutCirc').delay(1500);
 
                 $(window).scrollTop(0);
