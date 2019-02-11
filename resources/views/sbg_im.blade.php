@@ -66,11 +66,10 @@
              <div class="portfolioFilter">
                  <ul class="Portfolio-nav wow fadeIn delay-02s">
                      <li><a href="#" data-filter="*" class="current">Subaga Group</a></li>
-                     <li><a href="#" data-filter=".branding">SUBAGA INTI MILENIA</a></li>
-                     <li><a href="#" data-filter=".webdesign">SUBAGA MITRA SOLUSI</a></li>
-                     <li><a href="#" data-filter=".printdesign">PENDAERAHAN PAJAK</a></li>
-                     <li><a href="#" data-filter=".photography">Adora Solusi</a></li>
-                     <li><a href="#" data-filter=".webdesign">HEXADATA PRIMAKOM</a></li>
+                     <li><a href="#" data-filter=".branding">IoT of a GOVERNMENT TAX</a></li>
+                     <li><a href="#" data-filter=".webdesign">IoT of a SMALL MEDIUM BUSINESS</a></li>
+                     <li><a href="#" data-filter=".printdesign">IoT of a SMART PARKING</a></li>
+                     <li><a href="#" data-filter=".photography">IoT in CONTROLLING A POWER DISTRIBUTION</a></li>
                  </ul>
              </div>
 
@@ -96,16 +95,11 @@
                  <h3>IoT in CONTROLLING A POWER DISTRIBUTION</h3>
                  <p>Lorem ipsum dolor sit amet.</p>
              </div>
-             <div class=" Portfolio-box branding">
+             <div class=" Portfolio-box photography">
                  <a href="img/logo/subaga-milenia/Tappingbox2.png"><img src="img/logo/subaga-milenia/Tappingbox2.png" height="229px" alt=""></a>
                  <h3>IoT in CONTROLLING A POWER DISTRIBUTION</h3>
                  <p>Lorem ipsum dolor sit amet.</p>
              </div>
-             <!-- <div class=" Portfolio-box photography">
-                 <a href="img/Portfolio-pic6.jpg"><img src="img/Portfolio-pic6.jpg" alt=""></a>
-                 <h3>Windmills</h3>
-                 <p>Photography</p>
-             </div> -->
          </div>
  </section>
 
